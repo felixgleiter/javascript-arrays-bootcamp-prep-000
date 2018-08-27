@@ -16,3 +16,11 @@ function addElementToEndOfArray(arr, element) {
 function destructivelyAddElementToEndOfArray(arr, element) {
   return arr.push(element);
 }
+
+function accessElementInArray(arr, index) {
+  return arr[index];
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(arr, element) {
+  return arr.shift(element);
+}
